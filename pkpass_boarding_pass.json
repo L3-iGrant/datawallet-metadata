@@ -1,0 +1,37 @@
+{
+  "PKPASS BoardingPass Gate": [
+    "gate"
+  ],
+  "PKPASS BoardingPass Depart": [
+    "origin",
+    "depart"
+  ],
+  "PKPASS BoardingPass Arrive": [
+    "dest",
+    "arrive",
+    "destination"
+  ],
+  "PKPASS BoardingPass Passenger": [
+    "passengerName",
+    "passenger",
+    "travellers"
+  ],
+  "PKPASS BoardingPass Boarding Time": [
+    "departure",
+    "boardingTimeKey",
+    "boarding",
+    "boardingTime"
+  ],
+  "PKPASS BoardingPass Flight Number": [
+    "flightNumber",
+    "flight",
+    "train"
+  ],
+  "PKPASS BoardingPass Travel Class": [
+    "class"
+  ],
+  "PKPASS BoardingPass Boarding Date": [
+    "date",
+    "departureDate"
+  ]
+}
