@@ -25,7 +25,8 @@
   "PKPASS BoardingPass Flight Number": [
     "flightNumber",
     "flight",
-    "train"
+    "train",
+    "flightNb"
   ],
   "PKPASS BoardingPass Travel Class": [
     "class"
