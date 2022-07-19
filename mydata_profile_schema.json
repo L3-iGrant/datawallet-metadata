@@ -1,0 +1,60 @@
+[
+  {
+    "my-firstname":{
+      "type":"Text",
+      "label":"First Name"
+    },
+    "my-lastname":{
+      "type":"Text",
+      "label":"Last Name"
+    },
+    "my-email":{
+      "type":"String",
+      "label":"Email"
+    },
+    "my-salutation":{
+      "type":"Text",
+      "label":"Salutation"
+    },
+    "my-gender":{
+      "type":"Text",
+      "label":"Gender"
+    },
+    "my-nationality":{
+      "type":"Text",
+      "label":"Nationality"
+    }
+  },
+  {
+    "my-homephonenumber":{
+      "type":"String",
+      "label":"Home Phone Number"
+    },
+    "my-mobilephonenumber":{
+      "type":"String",
+      "label":"Mobile Phone Number"
+    }
+  },
+  {
+    "my-mailingstreet":{
+      "type":"Text",
+      "label":"Street"
+    },
+    "my-mailingcity":{
+      "type":"Text",
+      "label":"City"
+    },
+    "my-mailingstate":{
+      "type":"String",
+      "label":"State"
+    },
+    "my-mailingpostcode":{
+      "type":"Text",
+      "label":"Postcode"
+    },
+    "my-mailingcountry":{
+      "type":"Text",
+      "label":"Country"
+    }
+  }
+]
