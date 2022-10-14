@@ -1,14 +1,16 @@
-{
-    "blink:ethereum:rinkeby:": {
-        "url": "https://rinkeby.etherscan.io/tx/",
-        "infraProviders": [
-            "https://rinkeby.infura.io/v3/"
-        ]
-    },
-    "blink:ethereum:goerli:": {
-        "url": "https://goerli.etherscan.io/tx/",
-        "infraProviders": [
-            "https://goerli.infura.io/v3/"
-        ]
-    }
-}
+[
+  {
+    "prefix": "blink:ethereum:rinkeby:",
+    "url": "https://rinkeby.etherscan.io/tx/",
+    "infraProviders": [
+      "https://rinkeby.infura.io/v3/"
+    ]
+  },
+  {
+    "prefix": "blink:ethereum:goerli:",
+    "url": "https://goerli.etherscan.io/tx/",
+    "infraProviders": [
+      "https://goerli.infura.io/v3/"
+    ]
+  }
+]
