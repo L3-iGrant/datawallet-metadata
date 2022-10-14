@@ -1,0 +1,8 @@
+{
+    "blink:ethereum:rinkeby:": {
+        "url": "https://rinkeby.etherscan.io/tx/"
+    },
+    "blink:ethereum:goerli:": {
+        "url": "https://goerli.etherscan.io/tx/"
+    }
+}
