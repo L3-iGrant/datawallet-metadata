@@ -33,7 +33,7 @@
   },
   {
     "ID": 4,
-    "Str": "IDunion Testnet",
+    "Str": "IDUnion Testnet",
     "GenesisURL": "https://raw.githubusercontent.com/IDunion/IDunion_TestNet_Genesis/master/pool_transactions_genesis",
     "IsAutoDID": false,
     "RegisterDIDHTMLText": "Contact IDunion for further instructions.",
