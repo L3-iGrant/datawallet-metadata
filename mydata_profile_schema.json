@@ -1,60 +1,86 @@
 [
-  {
-    "my-firstname":{
-      "type":"Text",
-      "label":"First Name"
+  [
+    {
+      "key": "my-firstname",
+      "type": "Text",
+      "label": "First Name",
+      "isMandatory": true
     },
-    "my-lastname":{
-      "type":"Text",
-      "label":"Last Name"
+    {
+      "key": "my-lastname",
+      "type": "Text",
+      "label": "Last Name",
+      "isMandatory": false
     },
-    "my-email":{
-      "type":"String",
-      "label":"Email"
+    {
+      "key": "my-email",
+      "type": "String",
+      "label": "Email",
+      "isMandatory": true
     },
-    "my-salutation":{
-      "type":"Text",
-      "label":"Salutation"
+    {
+      "key": "my-salutation",
+      "type": "Text",
+      "label": "Salutation",
+      "isMandatory": false
     },
-    "my-gender":{
-      "type":"Text",
-      "label":"Gender"
+    {
+      "key": "my-gender",
+      "type": "Text",
+      "label": "Gender",
+      "isMandatory": false
     },
-    "my-nationality":{
-      "type":"Text",
-      "label":"Nationality"
+    {
+      "key": "my-nationality",
+      "type": "Text",
+      "label": "Nationality",
+      "isMandatory": false
     }
-  },
-  {
-    "my-homephonenumber":{
-      "type":"String",
-      "label":"Home Phone Number"
+  ],
+  [
+    {
+      "key": "my-homephonenumber",
+      "type": "String",
+      "label": "Home Phone Number",
+      "isMandatory": true
     },
-    "my-mobilephonenumber":{
-      "type":"String",
-      "label":"Mobile Phone Number"
+    {
+      "key": "my-mobilephonenumber",
+      "type": "String",
+      "label": "Mobile Phone Number",
+      "isMandatory": false
     }
-  },
-  {
-    "my-mailingstreet":{
-      "type":"Text",
-      "label":"Street"
+  ],
+  [
+    {
+      "key": "my-mailingstreet",
+      "type": "Text",
+      "label": "Street",
+      "isMandatory": false
     },
-    "my-mailingcity":{
-      "type":"Text",
-      "label":"City"
+    {
+      "key": "my-mailingcity",
+      "type": "Text",
+      "label": "City",
+      "isMandatory": false
     },
-    "my-mailingstate":{
-      "type":"String",
-      "label":"State"
+    {
+      "key": "my-mailingstate",
+      "type": "String",
+      "label": "State",
+      "isMandatory": false
     },
-    "my-mailingpostcode":{
-      "type":"Text",
-      "label":"Postcode"
+    {
+      "key": "my-mailingpostcode",
+      "type": "Text",
+      "label": "Postcode",
+      "isMandatory": false
     },
-    "my-mailingcountry":{
-      "type":"Text",
-      "label":"Country"
+    {
+      "key": "my-mailingcountry",
+      "type": "Text",
+      "label": "Country",
+      "isMandatory": false
     }
-  }
+  ]
 ]
