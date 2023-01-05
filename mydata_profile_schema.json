@@ -10,7 +10,7 @@
       "key": "my-lastname",
       "type": "Text",
       "label": "Last Name",
-      "isMandatory": false
+      "isMandatory": true
     },
     {
       "key": "my-email",
@@ -34,7 +34,7 @@
       "key": "my-nationality",
       "type": "Text",
       "label": "Nationality",
-      "isMandatory": false
+      "isMandatory": true
     }
   ],
   [
