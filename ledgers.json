@@ -1,7 +1,7 @@
 [
   {
     "ID": 0,
-    "Str": "NordXDataspace TestNetwork",
+    "Str": "NordXDataspace Testnet",
     "GenesisURL": "https://indy.nxd.foundation/genesis",
     "IsAutoDID": true,
     "RegisterDIDHTMLText": "",
