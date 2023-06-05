@@ -42,13 +42,13 @@
       "key": "my-homephonenumber",
       "type": "String",
       "label": "Home Phone Number",
-      "isMandatory": true
+      "isMandatory": false
     },
     {
       "key": "my-mobilephonenumber",
       "type": "String",
       "label": "Mobile Phone Number",
-      "isMandatory": false
+      "isMandatory": true
     }
   ],
   [
