@@ -1,0 +1,60 @@
+openapi: 3.0.3
+info:
+  title: Healthcare Insights API
+  description: API for accessing healthcare insights services from Data Analysis AB Sweden.
+  version: 1.0.0
+  contact:
+    name: Data Analysis AB Sweden
+    email: info@dataanalysis.se
+servers:
+  - url: https://api.dataanalysis.se/v1
+    description: Production server
+  - url: https://sandbox.api.dataanalysis.se/v1
+    description: Sandbox server
+paths:
+  /insights:
+    post:
+      summary: Retrieve insights from aggregated data sources
+      description: Retrieve healthcare insights based on patient data obtained from multiple aggregated data sources.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/InsightsRequest'
+      responses:
+        '200':
+          description: Retrieved healthcare insights from multiple data sources.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InsightsResponse'
+components:
+  schemas:
+    InsightsRequest:
+      type: object
+      properties:
+        patientId:
+          type: string
+          example: "12345"
+        data:
+          type: object
+          additionalProperties:
+            type: string
+          example: 
+            bloodPressure: "120/80"
+            cholesterol: "200"
+    InsightsResponse:
+      type: object
+      properties:
+        patientId:
+          type: string
+          example: "12345"
+        insights:
+          type: array
+          items:
+            type: string
+            example: "Risk of cardiovascular disease: Low"
+tags:
+  - name: Insights
+    description: Operations related to healthcare insights
