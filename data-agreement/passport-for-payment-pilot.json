@@ -1,0 +1,32 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/decentralised-dataexchange/automated-data-agreements/main/interface-specs/data-agreement-schema/v1/data-agreement-schema-context.jsonld",
+    "https://w3id.org/security/v2"
+  ],
+  "id": "123e4567-e89b-12d3-a456-426614174000",
+  "version": 1,
+  "template_id": "91be609a-4acd-468f-b37a-0f379893b65c",
+  "template_version": 1,
+  "data_controller_name": "iGrant.io",
+  "data_controller_url": "https://igrant.io",
+  "data_policy": {
+    "policy_URL": "https://igrant.io/privacy.html#privacy_policy",
+    "jurisdiction": "Stockholm, Sweden",
+    "industry_sector": "Public Sector (Trials)",
+    "data_retention_period": 1,
+    "geographic_restriction": "Europe",
+    "storage_location": "Europe"
+  },
+  "purpose": "Verify identity with passport",
+  "purpose_description": "We will verify your passport info to link your EUDI wallet to your bank account. Your data is securely stored and used only for verification. We comply with GDPR and won’t share without consent unless required by law.",
+  "lawful_basis": "consent",
+  "method_of_use": "data_using_service",
+  "personal_data": [],
+  "dpia": {
+    "dpia_date": "2025-01-01T17:44:00Z",
+    "dpia_summary_url": "https://igrant.io/index.html#contact"
+  },
+  "event": [],
+  "proof": [],
+  "data_subject_did": ""
+}
