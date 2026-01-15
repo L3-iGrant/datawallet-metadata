@@ -1,0 +1,27 @@
+{
+  "PaymentWalletAttestation":[
+    "PaymentWalletAttestation"
+  ],
+  "QESAC":[
+    "QESAC"
+  ],
+  "PDA1":[
+    "PortableDocumentA1"
+  ],
+  "Receipt":[
+    "Receipt",
+    "VerifiablevReceiptSDJWT"
+  ],
+  "FerryBoardingPass":[
+   "VerifiableFerryBoardingPassCredentialSDJWT"
+  ],
+  "PID":[
+    "urn:eu.europa.ec.eudi:pid:1"
+  ],
+  "PHOTOID":[
+    "eu.europa.ec.eudi.photoid.1"
+  ],
+  "WUA":[
+    "WalletUnitAttestation"
+  ]
+}
