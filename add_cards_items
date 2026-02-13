@@ -1,0 +1,47 @@
+[
+  {
+    "id":"aadhar_card",
+    "title":"Aadhar",
+    "subTitle":"India",
+    "mainImage":"https://iili.io/qH095HQ.png",
+    "subImage":"https://iili.io/qHlQr1p.png",
+    "type":"QRScanning",
+    "region":["india"]
+  },
+  {
+    "id":"payments",
+    "title":"Payments",
+    "subTitle":"European Union",
+    "mainImage":"https://iili.io/qHlQgBR.png",
+    "subImage":"https://iili.io/qHzo622.png",
+    "type":"QRScanning",
+    "region":null
+  },
+  {
+    "id":"eu_passport",
+    "title":"Passport of the European Union",
+    "subTitle":"European Union",
+    "mainImage":"https://iili.io/qH0dTfn.md.png",
+    "subImage":"https://iili.io/qHzo622.png",
+    "type":"Passport",
+    "region":["europe"]
+  },
+  {
+    "id":"singapore_passport",
+    "title":"Singapore Passport",
+    "subTitle":"Singapore",
+    "mainImage":"https://iili.io/qH0dTfn.md.png",
+    "subImage":"https://iili.io/qHlQSLv.png",
+    "type":"Passport",
+    "region":["singapore"]
+  },
+  {
+    "id":"ebsi_certificates",
+    "title":"EBSI Certificates",
+    "subTitle":"European Union",
+   "mainImage":"https://iili.io/qH036oN.png",
+    "subImage":"https://iili.io/qHzo622.png",
+    "type":"QRScanning",
+    "region":["europe"]
+  }
+]
