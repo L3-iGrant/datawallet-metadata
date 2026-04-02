@@ -1,12 +1,12 @@
 {
   "staging": {
     "url":"https://staging-oid4vc.igrant.io/organisation/4264f05a-e0cd-49cb-bb32-b664e1d0f448/service/wallet-provider",
-    "last_updated_time":1775151608,
-    "reload_required":true
+    "last_updated_time":1775152842,
+    "reload_required":false
   },
   "production": {
     "url":"https://oid4vc.igrant.io/organisation/445f2b74-cc27-44ef-bed7-4809c13699cf/service/wallet-provider",
-    "last_updated_time":1775151608,
-    "reload_required":true
+    "last_updated_time":1775152842,
+    "reload_required":false
   }
 }
