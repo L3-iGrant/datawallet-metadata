@@ -1,0 +1,12 @@
+{
+  "trust_lists": [
+    {
+      "name": "EWC",
+      "url": "https://raw.githubusercontent.com/decentralised-dataexchange/ewc-trust-list/refs/heads/main/EWC-TL.xml"
+    },
+    {
+      "name": "NXD",
+      "url": "https://raw.githubusercontent.com/NXD-Foundation/nxd-trust-list/refs/heads/main/NXD-TL.xml"
+    }
+  ]
+}
