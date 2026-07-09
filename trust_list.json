@@ -7,6 +7,10 @@
     {
       "name": "NXD",
       "url": "https://raw.githubusercontent.com/NXD-Foundation/nxd-trust-list/refs/heads/main/NXD-TL.xml"
+    },
+    {
+      "name": "EWC-Consortium",
+      "url": "https://ewc-consortium.github.io/ewc-trust-list/EWC-TL"
     }
   ]
 }
