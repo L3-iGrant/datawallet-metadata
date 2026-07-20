@@ -12,5 +12,25 @@
       "name": "EWC-Consortium",
       "url": "https://ewc-consortium.github.io/ewc-trust-list/EWC-TL"
     }
-  ]
+  ],
+  "trust_list_service": {
+    "staging": {
+      "base_url": "https://trustlist-test.eubw.dev",
+      "endpoints": {
+        "nonce": "/trust-list/nonce",
+        "lookup": "/trust-list/lookup"
+      },
+      "last_updated_time": 1784545549,
+      "reload_required": false
+    },
+    "production": {
+      "base_url": "https://trustlist-test.eubw.dev",
+      "endpoints": {
+        "nonce": "/trust-list/nonce",
+        "lookup": "/trust-list/lookup"
+      },
+      "last_updated_time": 1784545549,
+      "reload_required": false
+    }
+  }
 }
