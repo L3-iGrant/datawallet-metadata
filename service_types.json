@@ -1,0 +1,67 @@
+{
+  "possible_roles": [
+    "Issuer",
+    "Verifier",
+    "PID Provider",
+    "Wallet Provider"
+  ],
+  "service_types": {
+    "http://uri.etsi.org/TrstSvc/Svctype/EAA/Q": {
+      "roles": [
+        "Issuer"
+      ]
+    },
+    "http://uri.etsi.org/TrstSvc/Svctype/EAA": {
+      "roles": [
+        "Issuer"
+      ]
+    },
+    "http://uri.etsi.org/TrstSvc/Svctype/WP": {
+      "roles": [
+        "Wallet Provider"
+      ]
+    },
+    "http://uri.etsi.org/TrstSvc/Svctype/WRPAC": {
+      "roles": [
+        "Issuer",
+        "Verifier"
+      ]
+    },
+    "https://nxd-foundation.github.io/nxd-trust-list/TrstSvc/Svctype/NPWP": {
+      "roles": [
+        "Wallet Provider"
+      ]
+    },
+    "https://nxd-foundation.github.io/nxd-trust-list/TrstSvc/Svctype/PID": {
+      "roles": [
+        "PID Provider"
+      ]
+    },
+    "https://nxd-foundation.github.io/nxd-trust-list/TrstSvc/Svctype/LPWP": {
+      "roles": [
+        "Wallet Provider"
+      ]
+    },
+    "http://uri.etsi.org/19602/SvcType/PubEAA/Issuance": {
+      "roles": [
+        "Issuer"
+      ]
+    },
+    "http://uri.etsi.org/19602/SvcType/PID/Issuance": {
+      "roles": [
+        "PID Provider"
+      ]
+    },
+    "http://uri.etsi.org/19602/SvcType/WalletSolution/Issuance": {
+      "roles": [
+        "Wallet Provider"
+      ]
+    },
+    "http://uri.etsi.org/19602/SvcType/WRPAC/Issuance": {
+      "roles": [
+        "Issuer",
+        "Verifier"
+      ]
+    }
+  }
+}
