@@ -24,12 +24,12 @@
       "reload_required": false
     },
     "production": {
-      "base_url": "https://trustlist-test.eubw.dev",
+      "base_url": "https://trustlist.nxd.foundation",
       "endpoints": {
         "nonce": "/trust-list/nonce",
         "lookup": "/trust-list/lookup"
       },
-      "last_updated_time": 1784545549,
+      "last_updated_time": 1784810927,
       "reload_required": false
     }
   }
