@@ -1,0 +1,6 @@
+{
+  "description": "Unsigned presentation requests the wallets may serve without a trust-list check. One entry per (URI scheme, credential type). Fields: scheme = the URI scheme the request must arrive on, without ://, matched case-insensitively (e.g. av); allow_all_schemes = true lets the entry match every URI scheme, in which case scheme may be left out; doctype = mdoc doctype (DCQL meta.doctype_value); vct = SD-JWT vct (DCQL meta.vct_values). Each entry needs scheme or allow_all_schemes, and doctype or vct.",
+  "allowed": [
+    { "allow_all_schemes": true, "doctype": "eu.europa.ec.av.1" }
+  ]
+}
