@@ -16,7 +16,9 @@
    "VerifiableFerryBoardingPassCredentialSDJWT"
   ],
   "PID":[
-    "urn:eu.europa.ec.eudi:pid:1"
+    "urn:eu.europa.ec.eudi:pid:1",
+    "urn:eudi:pid:1",
+    "eu.europa.ec.eudi.pid.1"
   ],
   "PHOTOID":[
     "eu.europa.ec.eudi.photoid.1"
